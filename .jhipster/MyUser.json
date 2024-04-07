@@ -1,0 +1,19 @@
+{
+  "annotations": {
+    "changelogDate": "20240407220317"
+  },
+  "applications": "*",
+  "fields": [
+    {
+      "fieldName": "name",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "surname",
+      "fieldType": "String"
+    }
+  ],
+  "name": "MyUser",
+  "relationships": [],
+  "searchEngine": "no"
+}
