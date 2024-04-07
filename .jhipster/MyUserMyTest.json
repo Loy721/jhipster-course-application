@@ -1,0 +1,15 @@
+{
+  "annotations": {
+    "changelogDate": "20240407220318"
+  },
+  "applications": "*",
+  "fields": [
+    {
+      "fieldName": "grade",
+      "fieldType": "String"
+    }
+  ],
+  "name": "MyUserMyTest",
+  "relationships": [],
+  "searchEngine": "no"
+}
