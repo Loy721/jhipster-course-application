@@ -1,0 +1,36 @@
+entity File {
+    topic String,
+    content String
+}
+
+entity MyTest {
+    name String,
+    questions String,
+    file File
+}
+
+entity Question {
+    content String,
+    myTest MyTest
+}
+
+entity MyUser {
+    name String,
+    surname String
+}
+
+entity MyUserMyTest {
+    grade String,
+    myTest MyTest,
+    myUser MyUser
+}
+
+relationship OneToMany {
+    File{myTests} to MyTest{file}
+}
+
+relationship ManyToOne {
+    MyUserMyTest{myTest} to MyTest,
+    MyUserMyTest{myUser} to MyUser,
+    Question{myTest} to MyTest
+}
