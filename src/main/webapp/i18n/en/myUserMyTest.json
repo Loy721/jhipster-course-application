@@ -1,0 +1,26 @@
+{
+  "jhipsterCourseApp": {
+    "myUserMyTest": {
+      "home": {
+        "title": "My User My Tests",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new My User My Test",
+        "createOrEditLabel": "Create or edit a My User My Test",
+        "notFound": "No My User My Tests found"
+      },
+      "created": "A new My User My Test is created with identifier {{ param }}",
+      "updated": "A My User My Test is updated with identifier {{ param }}",
+      "deleted": "A My User My Test is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete My User My Test {{ id }}?"
+      },
+      "detail": {
+        "title": "My User My Test"
+      },
+      "id": "ID",
+      "grade": "Grade",
+      "myUser": "My User",
+      "myTest": "My Test"
+    }
+  }
+}
