@@ -1,0 +1,29 @@
+entity File {
+    topic String,
+    content String
+}
+
+entity MyTest {
+    name String
+    questions String
+}
+
+entity Question {
+    content String
+}
+
+entity MyUser {
+    name String
+    surname String
+}
+
+entity MyUserMyTest {
+    grade String
+}
+
+relationship OneToMany {
+    File to MyTest{file},
+    MyTest to Question{myTest},
+    MyUser to MyUserMyTest{myUser},
+    MyTest to MyUserMyTest{myTest}
+}
