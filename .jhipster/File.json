@@ -1,0 +1,27 @@
+{
+  "annotations": {
+    "changelogDate": "20240408092932"
+  },
+  "applications": "*",
+  "fields": [
+    {
+      "fieldName": "topic",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "content",
+      "fieldType": "String"
+    }
+  ],
+  "name": "File",
+  "relationships": [
+    {
+      "otherEntityName": "myTest",
+      "otherEntityRelationshipName": "file",
+      "relationshipName": "myTests",
+      "relationshipSide": "left",
+      "relationshipType": "one-to-many"
+    }
+  ],
+  "searchEngine": "no"
+}

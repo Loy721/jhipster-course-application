@@ -1,0 +1,30 @@
+{
+  "annotations": {
+    "changelogDate": "20240408092935"
+  },
+  "applications": "*",
+  "fields": [
+    {
+      "fieldName": "grade",
+      "fieldType": "Integer"
+    }
+  ],
+  "name": "MyUserMyTest",
+  "relationships": [
+    {
+      "otherEntityName": "myUser",
+      "otherEntityRelationshipName": "myTests",
+      "relationshipName": "myUser",
+      "relationshipSide": "right",
+      "relationshipType": "many-to-one"
+    },
+    {
+      "otherEntityName": "myTest",
+      "otherEntityRelationshipName": "myUsers",
+      "relationshipName": "myTest",
+      "relationshipSide": "right",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "searchEngine": "no"
+}

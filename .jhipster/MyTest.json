@@ -1,0 +1,37 @@
+{
+  "annotations": {
+    "changelogDate": "20240408092933"
+  },
+  "applications": "*",
+  "fields": [
+    {
+      "fieldName": "name",
+      "fieldType": "String"
+    }
+  ],
+  "name": "MyTest",
+  "relationships": [
+    {
+      "otherEntityName": "question",
+      "otherEntityRelationshipName": "myTest",
+      "relationshipName": "questions",
+      "relationshipSide": "left",
+      "relationshipType": "one-to-many"
+    },
+    {
+      "otherEntityName": "myUserMyTest",
+      "otherEntityRelationshipName": "myTest",
+      "relationshipName": "myUsers",
+      "relationshipSide": "left",
+      "relationshipType": "one-to-many"
+    },
+    {
+      "otherEntityName": "file",
+      "otherEntityRelationshipName": "myTests",
+      "relationshipName": "file",
+      "relationshipSide": "right",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "searchEngine": "no"
+}
